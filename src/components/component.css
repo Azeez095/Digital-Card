@@ -1,0 +1,108 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*Style for Info component*/
+.info > h1, .info >h6{
+    margin: 0;
+  }
+
+.info > h1{
+    font-size: 25px;
+    font-weight: bold;
+    color:#FFFFFF;
+    ;
+}
+
+
+.info > h6{
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #F3BF99;
+    ;
+}
+
+.info > small{
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #F5F5F5;
+    display: block;
+    margin: 12px 0;
+    
+    
+}
+
+
+.info {
+    background-color:#1A1B21;
+    width:313px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info > button{
+    width: 247px;
+    height: 34px;
+    border:1px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 9px, 13px, 9px, 11px;
+    margin-bottom: 20px;
+    
+}
+
+.info > button > a{
+    text-decoration: none;
+    color:#374151;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: inter;
+}
+
+/*About component and Interest Component*/
+
+.about, .interests{
+    width: 247px;
+    margin: 0 auto;
+    color: #DCDCDC;
+    
+}
+
+.about > p,.interests > p{
+    font-size:12px ;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.about > h1, .interests > h1{
+    font-size:16px ;
+    margin-top: 20px;
+    line-height: 16px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.interests > p{
+    margin-bottom: 40px;
+}
+
+/*Footer*/
+footer{
+    height: 64px;
+    background-color: #161619;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+    align-items: center;
+    
+}
+
+.icon{
+    background-color: #D1D5DB;
+    text-decoration: none;
+    width:20px;
+    
+}
